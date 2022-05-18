@@ -11,7 +11,7 @@ export default function()
         <div className="logo-part">
                 <Container className="logo-container">
         <Row>
-            <Col sm={{span: 6, order: 'first'}} xs={{order: 'last'}}>
+            <Col sm={{span: 6, order: 'first'}} xs={{order: 'last'}} className="my-details-logo">
             <Container><h1>I am Izhar Mishli</h1></Container>
             <Container><h2>Software Developer: Full Stack, Gaming, and More! </h2></Container>
             <Container><h5>izarmishli@gmail.com </h5></Container>

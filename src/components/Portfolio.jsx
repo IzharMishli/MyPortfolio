@@ -24,7 +24,7 @@ export default function()
             
                 </Row>
                 
-            <Row id="work-section" data-aos="fade-right" >
+            <Row id="work-section"  >
             
                 {works.map((work, index) => {
                     return (

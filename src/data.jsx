@@ -2,7 +2,7 @@
 const data = [
     {
         name: "Ronchu-WebSite",
-        caption: "best site ever",
+        caption: "Make your best special event with tasty food in affordable prices!, in-site invite is available!",
         image: "pc-ronchu.png",
         type: "web",
         links: [{
@@ -13,7 +13,7 @@ const data = [
     },
     {
         name: "Jumper",
-        caption: "best game ever",
+        caption: "Addictive multiplayer game that you can play with your friends or random opponents, Try it out!",
         image: "jumper.png",
         type: "gaming",
         links: [
@@ -30,7 +30,7 @@ const data = [
     },
     {
         name: "Brain Challange",
-        caption: "best game ever",
+        caption: "Test your quickness and improve your brain skills, Try to get the best score",
         image: "brainChallange.png",
         type: "gaming",
         links: [
