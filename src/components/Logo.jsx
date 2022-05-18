@@ -11,7 +11,7 @@ export default function()
         <div className="logo-part">
                 <Container className="logo-container">
         <Row>
-            <Col sm={6}>
+            <Col sm={{span: 6, order: 'first'}} xs={{order: 'last'}}>
             <Container><h1>I am Izhar Mishli</h1></Container>
             <Container><h2>Software Developer: Full Stack, Gaming, and More! </h2></Container>
             <Container><h5>izarmishli@gmail.com </h5></Container>
@@ -26,7 +26,7 @@ export default function()
                 <icons.Instagram className="iconsClass" /></a></Col>
             </Row>
             </Col>
-            <Col sm={6} className="logo-img-div"><img className="logo-my-image" src={image} /></Col>
+            <Col sm={{span: 6, order: 'last'}} xs={{order: 'first'}} className="logo-img-div"><img className="logo-my-image" src={image} /></Col>
         </Row>
         </Container>
             

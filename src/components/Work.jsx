@@ -21,7 +21,7 @@ export default function(props)
     
 
     return( 
-        <Col md={4} sm={6} className="work-part">
+        <Col xs={6} sm={6} md={4} className="work-part">
         <div className={props.type}>
          <Row className="justify-content-md-center">
             <Col><h1>{props.name}</h1></Col>
@@ -35,14 +35,14 @@ export default function(props)
          
          <div class="topContainer">
          {links.map((link, index) => {
-                return(<a href={link.link}><img className="links-image" src={require("../images/links/" + link.type + ".png")} /></a>)
+                return(<a key={index} href={link.link}><img className="links-image" src={require("../images/links/" + link.type + ".png")} /></a>)
             })}
             </div>
          <div class="topContainer">
          
          {tags.map((tag, index) => {
                 return(
-                    <div className="tagDiv">
+                    <div className="tagDiv" key={index}>
                     <img className="tags-image" src={require("../images/tags/" + tag + ".png")} />
                     </div>)
             })}

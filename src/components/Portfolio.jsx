@@ -1,5 +1,5 @@
 import React from "react";
-import {Row,Col, ListGroup} from 'react-bootstrap';
+import {Row,Col, ListGroup, Container} from 'react-bootstrap';
 import Work from "./Work";
 import works from "../data";
 
@@ -9,6 +9,7 @@ export default function()
 
 
     return( 
+        <Container fluid>
         <Row className="portfolio-part">
             <Row>
                 <Col><h1>Portfolio Showcase</h1></Col>
@@ -16,6 +17,7 @@ export default function()
             <Row>
             
                 </Row>
+                
             <Row>
                 {works.map((work, index) => {
                     return (
@@ -29,8 +31,9 @@ export default function()
                     )
                 })}
             </Row>
+            
         </Row>
-    
+        </Container>
         
     )
 }
