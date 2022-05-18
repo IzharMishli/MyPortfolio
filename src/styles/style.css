@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Roboto+Flex:opsz,wght@8..144,200&family=Suez+One&display=swap');
+
+body{
+    background-color: #1F2235;
+}
+
+.navDiv {
+    color: red;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-toggler{
+    background: rgba(225, 226, 225, 0.7)  
+}
+
+  .navbar-dark .navbar-nav .nav-link
+  {
+      color:#fff;
+  }
+
+  .logo-part{
+      background-color: #24263b;
+      height: auto;
+  }
+
+  .logo-my-image{
+    border-radius: 100%;
+    width: 200px;
+    height: auto;
+    
+    display:block;
+    margin: 5px auto;
+    border-style: white 2px;
+    border: 2px solid white;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  }
+.logo-img-div{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.icons-row:has(.row){
+  padding: 0 50px;
+  margin: 0;
+}
+.icons-col, svg{
+  width: 20px;
+}
+
+
+  .logo-part{
+    
+    color:white;
+      font-size: 4vw;
+      text-align: center;
+      display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .logo-part, h1{
+        font-family: 'Suez One', serif;
+        font-size: 4vw;
+  }
+  .logo-part, h2{
+    font-family: 'Roboto Flex', sans-serif;
+      font-size: 4vw;
+}
+  .logo-container{
+      padding: 20px 15px;
+  }
+  .container{
+    padding: 0;
+  }
+
+.social-image{
+    width: 40px;
+    height: 40px;
+    border-style: black 2px;
+}
+
+  @media screen and (max-width: 576px) {
+
+    .logo-my-image{
+        height: 100px;
+        width: 100px;
+      }
+  }
+  @media screen and (min-width: 800px) {
+
+    .logo-my-image{
+        height: 250px;
+        width: 250px;
+      }
+  }
+
+  @media screen and (min-width: 1000px) {
+
+    .logo-my-image{
+        height: 300px;
+        width: 300px;
+      }
+  }

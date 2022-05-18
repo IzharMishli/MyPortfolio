@@ -1,0 +1,81 @@
+a{
+    line-height: 1;
+}
+
+.work-image{
+    width: 80%;
+    height: auto;
+}
+
+.work-part{
+    padding: 5px 15px;
+    
+    
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    
+}
+
+.gaming{
+    margin: 10px;
+    background-color: #730038;
+background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");
+border: 1px solid white;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.web{
+    margin: 10px;
+    background-color: #008f4f;
+background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");
+border: 1px solid white;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.other{
+    margin: 10px;
+    background-color: #a3b800;
+background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");
+border: 1px solid white;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.row{
+    margin: 0px;
+}
+
+.tags-image{
+    width: auto;
+    height: 30px;
+    padding: 0 5px 0 0;
+    
+}
+
+.links-image{
+    height: auto;
+    width: 80px;
+    padding: 0 5px 0 0;
+}
+
+.topContainer{
+    padding: 5px;
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; 
+  flex-wrap: wrap;
+}
+
+.tagDiv {
+    margin: 0px 0;
+    line-height: 1;
+}
+
+@media screen and (min-width: 800px) {
+
+    .tags-image{
+        
+        height: 40px;
+        padding: 0 5px 0 0;
+        
+    }
+  }
