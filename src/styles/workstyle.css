@@ -50,7 +50,7 @@ border: 1px solid white;
     width: auto;
     height: 30px;
     padding: 0 5px 0 0;
-    
+    max-width: 100%;
 }
 
 .links-image{
@@ -79,6 +79,22 @@ border: 1px solid white;
         
         height: 40px;
         padding: 0 5px 0 0;
+        
+    }
+  }
+  
+  @media  (max-width: 800px) {
+
+    .work-part h1{
+        font-size: 4vw;
+    }
+    
+    .work-part h5{
+        font-size: 2vw;
+    }
+    .links-image{
+        
+        width: 60px;
         
     }
   }

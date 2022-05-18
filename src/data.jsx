@@ -1,7 +1,7 @@
 
 const data = [
     {
-        name: "Ronchu-WebSite",
+        name: "Ronchu-Web",
         caption: "Make your best special event with tasty food in affordable prices!, in-site invite is available!",
         image: "pc-ronchu.png",
         type: "web",
@@ -9,7 +9,7 @@ const data = [
             type: "http",
             link: "https://ronchu-website.herokuapp.com/"
         }],
-        tags: ["react", "mongodb","java-script"]
+        tags: ["react","java-script", "mongodb"]
     },
     {
         name: "Jumper",
