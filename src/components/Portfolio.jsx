@@ -23,7 +23,6 @@ export default function()
             <Row>
             
                 </Row>
-                
             <Row id="work-section"  >
             
                 {works.map((work, index) => {

@@ -2,6 +2,13 @@ a{
     line-height: 1;
 }
 
+hr{
+    margin: 5px 0;
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);;
+    border-bottom: 0;
+}
+
 .work-image{
     width: 100%;
     height: auto;
@@ -18,8 +25,12 @@ a{
 .work-part h5{
     font-size: 1vw;
 }
+
+.work-div{
+    
+    height: 100%;
+}
 .gaming{
-    margin: 10px;
     background-color: #730038;
 background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");
 border: 1px solid white;
@@ -27,7 +38,6 @@ border: 1px solid white;
 }
 
 .web{
-    margin: 10px;
     background-color: #008f4f;
 background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");
 border: 1px solid white;
@@ -35,7 +45,6 @@ border: 1px solid white;
 }
 
 .other{
-    margin: 10px;
     background-color: #a3b800;
 background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");
 border: 1px solid white;
@@ -73,6 +82,7 @@ border: 1px solid white;
     line-height: 1;
 }
 
+
 @media  (min-width: 800px) {
 
     .tags-image{
@@ -88,6 +98,7 @@ border: 1px solid white;
     .work-part h1{
         font-size: 12px;
         flex-wrap: wrap;
+
     }
     
     .work-part h5{
@@ -97,5 +108,8 @@ border: 1px solid white;
         
         width: 60px;
         
+    }
+    .work-part{
+        padding: 5px;
     }
   }

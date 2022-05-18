@@ -26,20 +26,24 @@ export default function(props)
             setLinks(props.links);
     }, []);
     
+    const ColoredLine = ({ color }) => (
+        <hr
+            style={{
+                color: color,
+                backgroundColor: color
+            }}
+        />
+    );
 
     return( 
         <Col xs={6} sm={6} md={4} className="work-part" data-aos="zoom-out-down">
-        <div className={props.type}>
+        <div className={[props.type, "work-div"].join(" ")} >
          <Row className="justify-content-md-center">
             <Col><h1>{props.name}</h1></Col>
          </Row>
          <Row className="justify-content-md-center">
             <Col><h5>{props.caption}</h5></Col>
          </Row>
-         <Row className="justify-content-md-center">
-            <Col><img className="work-image" src={require("../images/" + props.image)} /></Col>
-         </Row>
-         
          <div class="topContainer">
          {links.map((link, index) => {
                 return(<a key={index} href={link.link}><img className="links-image" src={require("../images/links/" + link.type + ".png")} /></a>)
@@ -47,6 +51,12 @@ export default function(props)
             </div>
 
          <div class="topContainer">
+         <Row className="justify-content-md-center">
+            <Col><img className="work-image" src={require("../images/" + props.image)} /></Col>
+            
+         </Row>
+         <ColoredLine color="black" />
+         
          
          {tags.map((tag, index) => {
                 return(

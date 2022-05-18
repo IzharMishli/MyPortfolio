@@ -15,6 +15,7 @@ export default function()
             <br /><a href="https://www.flaticon.com/free-icons/portal" title="portal icons">Portal icons created by Pixel perfect - Flaticon</a>
             <br /><a href="https://www.flaticon.com/free-icons/hashtag" title="hashtag icons">Hashtag icons created by Freepik - Flaticon</a>
             <br /><a href="https://www.flaticon.com/free-icons/link" title="link icons">Link icons created by Freepik - Flaticon</a>
+            <br /><a href="https://commons.wikimedia.org/wiki/File:Microsoft_Azure_Logo.svg">Microsoft Corporation</a>, Public domain, via Wikimedia Commons
         </div>
     
         

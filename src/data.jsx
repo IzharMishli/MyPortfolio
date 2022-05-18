@@ -26,7 +26,7 @@ const data = [
                 link: "https://ronchu-website.herokuapp.com/"
             }
         ],
-        tags: ["unity", "csharp"]
+        tags: ["unity", "csharp", "azure"]
     },
     {
         name: "Brain Challange",
