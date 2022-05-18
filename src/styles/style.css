@@ -4,6 +4,16 @@ body{
     background-color: #1F2235;
 }
 
+.nav-link-text {
+  color: white;
+}
+
+.nav-link-text:hover {
+  color:red; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
+
 .navDiv {
     color: red;
 }
@@ -47,6 +57,10 @@ body{
     
 }
 
+ .credit-part a{
+  color: white;
+}
+
 .icons-row:has(.row){
   padding: 0 50px;
   margin: 0;
@@ -72,6 +86,11 @@ body{
   .logo-part h2{
     font-family: 'Roboto Flex', sans-serif;
       font-size: 3vw;
+}
+
+.logo-container h5{
+  font-family: 'Suez One', serif;
+  font-size: 2vw;
 }
   .logo-container{
       padding: 20px 15px;
