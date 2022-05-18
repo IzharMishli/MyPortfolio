@@ -3,7 +3,7 @@ a{
 }
 
 .work-image{
-    width: 80%;
+    width: 100%;
     height: auto;
 }
 
@@ -86,7 +86,8 @@ border: 1px solid white;
   @media  (max-width: 800px) {
 
     .work-part h1{
-        font-size: 4vw;
+        font-size: 12px;
+        flex-wrap: wrap;
     }
     
     .work-part h5{

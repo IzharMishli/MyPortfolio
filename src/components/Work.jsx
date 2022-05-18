@@ -45,6 +45,7 @@ export default function(props)
                 return(<a key={index} href={link.link}><img className="links-image" src={require("../images/links/" + link.type + ".png")} /></a>)
             })}
             </div>
+
          <div class="topContainer">
          
          {tags.map((tag, index) => {
