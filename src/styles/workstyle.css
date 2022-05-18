@@ -9,12 +9,15 @@ a{
 
 .work-part{
     padding: 5px 15px;
-    
-    
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-    
 }
 
+.work-part h1{
+    font-size: 3vw;
+}
+
+.work-part h5{
+    font-size: 2vw;
+}
 .gaming{
     margin: 10px;
     background-color: #730038;
