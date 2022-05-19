@@ -45,7 +45,7 @@ const data = [
         tags: ["xamarin","firebase", "csharp"]
     },
     {
-        name: "Plane rolling angle detector",
+        name: "Angle detector",
         caption: "Algorithm that calculates plane's rolling detector based on computer vision!",
         image: "angledetector.gif",
         gitlink: "https://github.com/IzharMishli/OpenCV-PlaneAngleDetector",

@@ -11,7 +11,6 @@ export default function(props)
     const[first,Setfirst] = useState(true);
     const [tags, setTags] = useState([]);
     const [links, setLinks] = useState([]);
-    const [isOpen, setIsOpen] = useState(false);
 
     useEffect(() => {
         AOS.init();
@@ -27,19 +26,15 @@ export default function(props)
         if (props.links)
             setLinks(props.links);
     }, []);
-    function handleShowDialog(){
-            
-    }
+    
     const ColoredLine = () => (
         <hr
             className="hr-style"
         />
-
-        
     );
 
     return( 
-        <Col xs={12} sm={6} md={4} className="work-part" data-aos="zoom-out-down">
+        <Col xs={6} sm={6} md={4} className="work-part" data-aos="zoom-out-down">
         <div className={[props.type, "work-div"].join(" ")} >
          <Row className="justify-content-center">
             <Col><h1>{props.name}</h1></Col>
@@ -61,9 +56,7 @@ export default function(props)
          </Row>
          <div class="topContainer">
          <Row className="justify-content-center">
-            <Col><img className="work-image" src={require("../images/" + props.image)} />
-            
-            </Col>
+            <Col><img className="work-image" src={require("../images/" + props.image)} /></Col>
             
          </Row>
          
@@ -72,11 +65,9 @@ export default function(props)
                 return(
                     <div className="tagDiv" key={index}>
                     <img className="tags-image" src={require("../images/tags/" + tag + ".png")} />
-                    
                     </div>)
             })}
             </Row>
-            
             </div>
          </div>
             
