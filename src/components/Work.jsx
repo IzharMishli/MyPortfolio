@@ -60,7 +60,7 @@ export default function(props)
             
          </Row>
          
-         <Row>
+         <Row className="justify-content-center">
          {tags.map((tag, index) => {
                 return(
                     <div className="tagDiv" key={index}>
