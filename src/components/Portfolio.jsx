@@ -34,6 +34,7 @@ export default function()
                 tags={work.tags}
                 links={work.links}
                 type={work.type}
+                gitlink={work.gitlink}
                 />
                     )
                 })}

@@ -2,13 +2,40 @@ a{
     line-height: 1;
 }
 
-hr{
-    margin: 5px 0;
-    width: 100%;
-    border-top: 1px solid rgba(0, 0, 0, 0.3);;
-    border-bottom: 0;
+.hr-style{
+    width: 10%;
+    border-style: none;
+    border-top-style: dotted;
+    border-top-width: 5px;
+    border-color: grey;
+    background-color: transparent;
+  }
+  .hr-row{
+      height: 10px;
+  }
+  .git-text-row{
+      padding: 0;
+  }
+
+  .git-text-row h3{
+      font-size: 10px;
+  }
+  .git-text-row a{
+    font-size: 10px;
+    color:inherit;
+    margin-top:1px
+}
+.git-text-row .iconsClass{
+    font-size: 15px;
+    color:inherit;
+    padding: 0 3px 0 0 ;
 }
 
+.git-text-row a:hover{
+    font-size: 10px;
+    color:rgb(8, 4, 4);
+    text-decoration: none;
+}
 .work-image{
     width: 100%;
     height: auto;

@@ -5,6 +5,7 @@ const data = [
         caption: "Make your best special event with tasty food in affordable prices!, in-site invite is available!",
         image: "pc-ronchu.png",
         type: "web",
+        gitlink: "https://github.com/IzharMishli/Ronchu-web",
         links: [{
             type: "http",
             link: "https://ronchu-website.herokuapp.com/"
@@ -16,6 +17,7 @@ const data = [
         caption: "Addictive multiplayer game that you can play with your friends or random opponents, Try it out!",
         image: "jumper.png",
         type: "gaming",
+        gitlink: "private",
         links: [
             {
             type: "appstore",
@@ -33,6 +35,7 @@ const data = [
         caption: "Test your quickness and improve your brain skills, Try to get the best score",
         image: "brainChallange.png",
         type: "gaming",
+        gitlink: "https://github.com/IzharMishli/CBTGAME",
         links: [
             {
                 type: "googleplay",
