@@ -21,27 +21,12 @@ export default function()
       ];
 
     return( 
-        <Container fluid>
-        <Row className="portfolio-part">
+        <Container fluid className="works-main-container">
+        <Row className="portfolio-part justify-content-center work-main-row">
             <Row className="justify-content-center">
                 <h1>Portfolio Showcase</h1>
             </Row>
-            <Row className="justify-content-center">
-            <ToggleButtonGroup type="radio" name="radio" hidden>
-                {radios.map((radio, idx) => (
-                    <ToggleButton
-                    key={idx}
-                    id={`radio-${idx}`}
-                    variant={idx % 2 ? 'outline-success' : 'outline-danger'}
-                    value={radio.value}
-                    checked={radioValue === radio.value}
-                    onChange={(e) => setRadioValue(e.currentTarget.value)}
-                    >
-                    {radio.name}
-                    </ToggleButton>
-                ))}
-                </ToggleButtonGroup>
-                </Row>
+            
             <Row id="work-section"  >
             
                 {works.filter((work) => {
