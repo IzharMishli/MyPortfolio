@@ -45,21 +45,12 @@ const data = [
         tags: ["xamarin","firebase", "csharp"]
     },
     {
-        name: "Jumper",
-        caption: "best game ever",
-        image: "pc-ronchu.png",
-        type: "other",
-        links: [
-            {
-            type: "appstore",
-            link: "https://ronchu-website.herokuapp.com/"
-            },
-            {
-                type: "googleplay",
-                link: "https://ronchu-website.herokuapp.com/"
-            }
-        ],
-        tags: ["unity", "csharp"]
+        name: "Plane rolling angle detector",
+        caption: "Algorithm that calculates plane's rolling detector based on computer vision!",
+        image: "angledetector.gif",
+        gitlink: "https://github.com/IzharMishli/OpenCV-PlaneAngleDetector",
+        type: "computer-vision",
+        tags: ["opencv", "python"]
     }
 ]
 

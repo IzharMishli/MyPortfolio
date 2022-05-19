@@ -71,7 +71,7 @@ border: 1px solid white;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
-.other{
+.other, .computer-vision{
     background-color: #a3b800;
 background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");
 border: 1px solid white;
@@ -81,10 +81,17 @@ border: 1px solid white;
 .row{
     margin: 0px;
 }
-
+.dialog {
+    box-shadow: 0 8px 6px -6px black;
+    position: static;
+    left: 20%;
+    top: 10%;
+  }
 .tags-image{
     width: auto;
     height: 30px;
+    margin-top: 5px;
+    margin-bottom: 0;
     padding: 0 5px 0 0;
     max-width: 100%;
 }
