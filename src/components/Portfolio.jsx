@@ -21,13 +21,13 @@ export default function()
       ];
 
     return( 
-        <Container fluid className="works-main-container">
+        <Container fluid className="works-main-container">\
         <Row className="portfolio-part justify-content-center work-main-row">
             <Row className="justify-content-center">
                 <h1>Portfolio Showcase</h1>
             </Row>
             
-            <Row id="work-section"  >
+            <Row id="works-section"  >
             
                 {works.filter((work) => {
                     if (radioValue === "all") return true; 

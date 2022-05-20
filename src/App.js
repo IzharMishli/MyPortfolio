@@ -1,5 +1,5 @@
-import "./styles/style.css"
-import "./styles/bodystyle.css"
+import "./styles/headerStyle.css"
+import "./styles/mainStyle.css"
 import Header from "./components/Header"
 import Portfolio from "./components/Portfolio";
 import Credits from "./components/Credits";

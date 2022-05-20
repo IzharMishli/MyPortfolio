@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Roboto+Flex:opsz,wght@8..144,200&family=Suez+One&display=swap');
+
+body{
+    background-color: #1F2235;
+}
+
+.row{
+  width: 99%;
+  margin: 0px;
+}
+a{
+  line-height: 1;
+}
+
+.col{
+  margin:10px;
+}
+
+.container{
+  padding: 0;
+}
+
+hr {
+  border: 1px solid rgba(206, 194, 197, 0.445);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin:10px 0 5px 0;
+}
+
+img{
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+
+  
+
+ 
+
+
+  
+
+
+  
+
+  

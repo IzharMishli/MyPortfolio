@@ -1,5 +1,5 @@
 import React,{useEffect, useState} from "react";
-import {Row,Col, ListGroup} from 'react-bootstrap';
+import {Row,Col, ListGroup, Image} from 'react-bootstrap';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import * as icons from "react-bootstrap-icons"
@@ -42,11 +42,11 @@ export default function(props)
          <Row className="justify-content-center">
             <Col><h5>{props.caption}</h5></Col>
          </Row>
-         <div class="topContainer">
+         <div class="hor-list-Container">
          {links.map((link, index) => {
                 return(<a key={index} href={link.link}><img className="links-image" src={require("../images/links/" + link.type + ".png")} /></a>)
             })}
-            </div>
+        </div>
 
          
          <Row className="justify-content-center git-text-row">
@@ -54,22 +54,25 @@ export default function(props)
              <a href={props.gitlink === "private" ? "#" : props.gitlink}>
              <h3>{props.gitlink === "private" ? "private" : "View in github"}</h3></a>
          </Row>
-         <div class="topContainer">
-         <Row className="justify-content-center">
-            <Col><img className="work-image" src={require("../images/" + props.image)} /></Col>
-            
-         </Row>
          
          <Row className="justify-content-center">
+            <Col><a href={"https://raw.githubusercontent.com/IzharMishli/MyPortfolio/master/src/images/" + props.image}><Image className="work-image" src={require("../images/" + props.image)} /></a></Col>
+            
+         </Row>
+         <hr />
+         <h1 className="tags-title">#Tags</h1>
+         <Row className="justify-content-center">
+         <div class="hor-list-Container">
          {tags.map((tag, index) => {
                 return(
                     <div className="tagDiv" key={index}>
                     <img className="tags-image" src={require("../images/tags/" + tag + ".png")} />
                     </div>)
             })}
+            </div>
             </Row>
             </div>
-         </div>
+         
             
         </Col>
     

@@ -1,18 +1,42 @@
-a{
-    line-height: 1;
+
+  /* ------- Works ShowCase Container ------- */
+
+  .works-main-container .row{
+    display: flex;
+    justify-content: center;
+  }
+
+  .portfolio-part{
+    width: 100%;
+    color:white;
+      font-size: 4vw;
+      text-align: center;
+      display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .portfolio-part h1{
+        font-family: 'Suez One', serif;
+        font-size: 4vw;
+        margin-top: 10px;
+        white-space: nowrap;
+  }
+  .portfolio-part h2{
+    font-family: 'Roboto Flex', sans-serif;
+      font-size: 4vw;
 }
 
-.hr-style{
-    width: 10%;
-    border-style: none;
-    border-top-style: dotted;
-    border-top-width: 5px;
-    border-color: grey;
-    background-color: transparent;
+@media  (min-width: 1100px) {
+
+    #works-section{
+      padding: 0 150px;
+    }
   }
-  .hr-row{
-      height: 10px;
-  }
+
+
+
+  /* ------- Works Cards ------- */
+
   .git-text-row{
       padding: 0;
   }
@@ -36,9 +60,10 @@ a{
     color:rgb(8, 4, 4);
     text-decoration: none;
 }
+
 .work-image{
-    width: 100%;
-    height: auto;
+    width:100%;
+    height:auto !important;
 }
 
 .work-part{
@@ -72,20 +97,25 @@ border: 1px solid white;
 }
 
 .other, .computer-vision{
-    background-color: #a3b800;
+    background-color: #5c008a;
 background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 border: 1px solid white;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
-.row{
-    margin: 0px;
-}
+
 .dialog {
     box-shadow: 0 8px 6px -6px black;
     position: static;
     left: 20%;
     top: 10%;
+  }
+
+  .work-div .tags-title{
+    font-family: 'Roboto Flex', sans-serif;
+      margin: 0;
+      font-size: 0.3em;
   }
 .tags-image{
     width: auto;
@@ -102,7 +132,7 @@ border: 1px solid white;
     padding: 0 5px 0 0;
 }
 
-.topContainer{
+.hor-list-Container{
     padding: 5px;
     display: flex;
   flex-direction: row;
@@ -145,5 +175,15 @@ border: 1px solid white;
     }
     .work-part{
         padding: 5px;
+    }
+
+    .work-div .tags-title{
+        font-size: 0.5em;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .work-div .tags-title{
+        font-size: 0.7em;
     }
   }

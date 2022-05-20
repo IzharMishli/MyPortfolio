@@ -46,7 +46,7 @@ const data = [
     },
     {
         name: "Angle detector",
-        caption: "Algorithm that calculates plane's rolling detector based on computer vision!",
+        caption: "Algorithm that calculates plane's rolling angle based on computer vision!",
         image: "angledetector.gif",
         gitlink: "https://github.com/IzharMishli/OpenCV-PlaneAngleDetector",
         type: "computer-vision",
