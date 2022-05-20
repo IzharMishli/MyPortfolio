@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Portfolio />}/>
         <Route path="/MyPortfolio" element={<Portfolio />}/>
-        <Route path="/credits" element={<Credits />}/>
+        <Route path="/MyPortfolio/credits" element={<Credits />}/>
       </Routes>
     </div>
   );
