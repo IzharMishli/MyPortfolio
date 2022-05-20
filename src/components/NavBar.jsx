@@ -15,7 +15,7 @@ export default function()
                         <Nav.Link  href="" className="nav-link-text" onClick={() => {
                         const anchor = document.querySelector('#work-section');
                         anchor.scrollIntoView({ behavior: 'smooth', block: 'start' })}}>My Works</Nav.Link>
-                        <Nav.Link href="/credits" className="nav-link-text">Credits</Nav.Link>
+                        <Nav.Link href="/MyPortfolio/credits" className="nav-link-text">Credits</Nav.Link>
                         
                     </Nav>
                     </Navbar.Collapse>
