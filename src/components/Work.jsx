@@ -36,6 +36,7 @@ export default function(props)
     return( 
         <Col xs={6} sm={6} md={4} className="work-part" data-aos="zoom-out-down">
         <div className={[props.type, "work-div"].join(" ")} >
+            
          <Row className="justify-content-center">
             <Col><h1>{props.name}</h1></Col>
          </Row>
@@ -60,8 +61,11 @@ export default function(props)
             
          </Row>
          <hr />
+         <div className="tags-area">
          <h1 className="tags-title">#Tags</h1>
          <Row className="justify-content-center">
+         
+         
          <div class="hor-list-Container">
          {tags.map((tag, index) => {
                 return(
@@ -70,7 +74,9 @@ export default function(props)
                     </div>)
             })}
             </div>
+            
             </Row>
+            </div>
             </div>
          
             

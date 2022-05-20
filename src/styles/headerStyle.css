@@ -66,6 +66,7 @@ font-size: 2vw;
     .logo-part{
         background-color: #24263b;
         height: auto;
+        padding: 10px 0;
     }
   
     .logo-my-image{
@@ -112,6 +113,12 @@ font-size: 2vw;
     border-style: black 2px;
 }
 
+.my-details-logo{
+  margin-top:auto;
+  margin-bottom:auto;
+
+}
+
   @media  (min-width: 800px) {
 
     .logo-my-image{
@@ -134,13 +141,6 @@ font-size: 2vw;
       }
   }
 
-  @media screen and (max-width: 900px) {
-    .my-details-logo{
-      padding-top: 20px;
-    
-  }
-  
-}
 
   /* ------- Credit Page ------- */
 

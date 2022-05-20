@@ -72,10 +72,14 @@
 
 .work-part h1{
     font-size: 2vw;
+    text-shadow: 2px 2px #000000;
+    margin: 2px 0 5px 0;
 }
 
 .work-part h5{
+    font-family: 'Roboto Flex', sans-serif;
     font-size: 1vw;
+    margin: 0;
 }
 
 .work-div{
@@ -144,6 +148,10 @@ border: 1px solid white;
 .tagDiv {
     margin: 0px 0;
     line-height: 1;
+}
+
+.tags-area{
+    align-self:initial;
 }
 
 
