@@ -21,11 +21,11 @@ const data = [
         links: [
             {
             type: "appstore",
-            link: "https://ronchu-website.herokuapp.com/"
+            link: "https://testflight.apple.com/join/oaMOtedY"
             },
             {
                 type: "googleplay",
-                link: "https://ronchu-website.herokuapp.com/"
+                link: "https://play.google.com/apps/internaltest/4699373008895596125"
             }
         ],
         tags: ["unity", "csharp", "azure"]
@@ -51,6 +51,14 @@ const data = [
         gitlink: "https://github.com/IzharMishli/OpenCV-PlaneAngleDetector",
         type: "computer-vision",
         tags: ["opencv", "python"]
+    },
+    {
+        name: "My Portfolio",
+        caption: "This portfolio is one of my favourite projects, enjoy visit and use source code",
+        image: "pc-portfolio.png",
+        gitlink: "https://github.com/IzharMishli/MyPortfolio",
+        type: "web",
+        tags: ["react","java-script"]
     }
 ]
 
