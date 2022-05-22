@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.06b47288.css",
-    "main.js": "/MyPortfolio/static/js/main.fe610d6c.js",
+    "main.js": "/MyPortfolio/static/js/main.dcfce1ad.js",
     "static/media/angledetector.gif": "/MyPortfolio/static/media/angledetector.c5e40e07aef5eb3bc277.gif",
+    "static/media/flight-record.gif": "/MyPortfolio/static/media/flight-record.5e5ec2834faae1b57f8a.gif",
     "static/media/pc-ronchu.png": "/MyPortfolio/static/media/pc-ronchu.3f76370877d8d16becd4.png",
     "static/media/pc-portfolio.png": "/MyPortfolio/static/media/pc-portfolio.36418b9831b8eac32b8d.png",
     "static/media/jumper.png": "/MyPortfolio/static/media/jumper.a723e313c39087b756e8.png",
     "static/media/brainChallange.png": "/MyPortfolio/static/media/brainChallange.a93c668486cc3fbe429d.png",
+    "static/media/my-npm.png": "/MyPortfolio/static/media/my-npm.2bd94a8819fa39b58157.png",
     "static/media/izhar.jpg": "/MyPortfolio/static/media/izhar.fb405e9e128043adef2e.jpg",
     "static/media/appstore.png": "/MyPortfolio/static/media/appstore.6822b6e8ab2b82ffea18.png",
     "static/media/xamarin.png": "/MyPortfolio/static/media/xamarin.0f0a5ffba6e454a8f676.png",
@@ -23,10 +25,10 @@
     "static/media/dotnet.png": "/MyPortfolio/static/media/dotnet.9686c01833bd92ba4ff3.png",
     "index.html": "/MyPortfolio/index.html",
     "main.06b47288.css.map": "/MyPortfolio/static/css/main.06b47288.css.map",
-    "main.fe610d6c.js.map": "/MyPortfolio/static/js/main.fe610d6c.js.map"
+    "main.dcfce1ad.js.map": "/MyPortfolio/static/js/main.dcfce1ad.js.map"
   },
   "entrypoints": [
     "static/css/main.06b47288.css",
-    "static/js/main.fe610d6c.js"
+    "static/js/main.dcfce1ad.js"
   ]
 }
