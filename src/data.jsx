@@ -57,8 +57,33 @@ const data = [
         caption: "This portfolio is one of my favourite projects, enjoy visit and use source code",
         image: "pc-portfolio.png",
         gitlink: "https://github.com/IzharMishli/MyPortfolio",
+        links: [{
+            type: "http",
+            link: "https://izharmishli.github.io/MyPortfolio/"
+        }],
         type: "web",
         tags: ["react","java-script"]
+    }
+    ,
+    {
+        name: "Instagram feed",
+        caption: "npm module created by me, can be used to integrated a feed in your react web app. visit my npm page",
+        image: "my-npm.png",
+        gitlink: "https://github.com/IzharMishli/insta-react-feed",
+        links: [{
+            type: "http",
+            link: "https://www.npmjs.com/package/insta-react-feed"
+        }],
+        type: "other",
+        tags: ["react","java-script"]
+    },
+    {
+        name: "Flight Record",
+        caption: "use csv file with flight data to view visually the flight and other telemetry like position and errors",
+        image: "flight-record.gif",
+        gitlink: "https://github.com/IzharMishli/FlightRecordView",
+        type: "other",
+        tags: ["csharp","visual-studio"]
     }
 ]
 
