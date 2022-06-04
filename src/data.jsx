@@ -76,9 +76,7 @@ const data = [
         }],
         type: "web",
         tags: ["react","java-script"]
-    }
-    ,
-    
+    },
     {
         name: "Flight Record",
         caption: "use csv file with flight data to view visually the flight and other telemetry like position and errors",
