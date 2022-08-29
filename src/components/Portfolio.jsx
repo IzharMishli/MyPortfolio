@@ -26,7 +26,24 @@ export default function()
             <Row className="justify-content-center">
                 <h1>Portfolio Showcase</h1>
             </Row>
-            
+            <Row>
+            <ButtonGroup>
+        {radios.map((radio, idx) => (
+          <ToggleButton
+            key={idx}
+            id={`radio-${idx}`}
+            type="radio"
+            variant={idx % 2 ? 'outline-success' : 'outline-danger'}
+            name="radio"
+            value={radio.value}
+            checked={radioValue === radio.value}
+            onChange={(e) => setRadioValue(e.currentTarget.value)}
+          >
+            {radio.name}
+          </ToggleButton>
+        ))}
+      </ButtonGroup>
+            </Row>
             <Row id="works-section"  >
             
                 {works.filter((work) => {

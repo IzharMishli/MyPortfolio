@@ -20,12 +20,12 @@ export default function(props)
     useEffect(() =>{
         if(props.tags)
             setTags(props.tags);
-    }, []);
+    },[props.tags]);
 
     useEffect(() =>{
         if (props.links)
             setLinks(props.links);
-    }, []);
+    }, [props.links]);
     
     const ColoredLine = () => (
         <hr
@@ -45,11 +45,9 @@ export default function(props)
          </Row>
          <div class="hor-list-Container">
          {links.map((link, index) => {
-                return(<a key={index} href={link.link}><img className="links-image" src={require("../images/links/" + link.type + ".png")} /></a>)
+                return(<a key={index} href={link.link}><img key={index} className="links-image" src={require("../images/links/" + link.type + ".png")} /></a>)
             })}
         </div>
-
-         
          <Row className="justify-content-center git-text-row">
          <icons.Github className="iconsClass" />
              <a href={props.gitlink === "private" ? "#" : props.gitlink}>
